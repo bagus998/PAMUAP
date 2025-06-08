@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_green"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambah Tanaman"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_bold" />
+        </LinearLayout>
+
+        <!-- Image Upload -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/plantImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ic_tanaman"
+                android:contentDescription="Plant Image" />
+
+            <Button
+                android:id="@+id/uploadImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Gambar"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- Form Fields -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Tanaman : "
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <EditText
+            android:id="@+id/plantNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Masukkan nama tanaman"
+            android:fontFamily="@font/poppins_regular"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="4dp"
+            android:paddingHorizontal="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga : "
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/plantPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Masukkan harga"
+            android:fontFamily="@font/poppins_regular"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="4dp"
+            android:paddingHorizontal="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/plantDescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="4dp"
+            android:gravity="top"
+            android:paddingTop="4dp"
+            android:background="@drawable/edittext_bg"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="Masukkan deskripsi"
+            android:paddingHorizontal="16dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Simpan"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="32dp" />
+    </LinearLayout>
+</ScrollView> 

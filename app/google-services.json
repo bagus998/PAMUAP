@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923248433457",
+    "project_id": "pamuap-3561d",
+    "storage_bucket": "pamuap-3561d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923248433457:android:c60620f542ffae7d57f810",
+        "android_client_info": {
+          "package_name": "com.example.pamuap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BY9VQUsjZPcEAP54zUDcXMt1rwRmeJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
